@@ -1,0 +1,126 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:772790432831363200",
+      "lastPropertyId": "12:2607764768017297121",
+      "name": "Observation",
+      "properties": [
+        {
+          "id": "1:5994011507338174104",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4993825300972376930",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:5841578007943985996",
+          "name": "dateTime",
+          "type": 10
+        },
+        {
+          "id": "4:607445508112957863",
+          "name": "lat",
+          "type": 8
+        },
+        {
+          "id": "5:512912807780372224",
+          "name": "lng",
+          "type": 8
+        },
+        {
+          "id": "6:2398590521603114213",
+          "name": "locationText",
+          "type": 9
+        },
+        {
+          "id": "7:5200380331819315033",
+          "name": "durationSec",
+          "type": 6
+        },
+        {
+          "id": "8:8228400162346921681",
+          "name": "category",
+          "type": 9
+        },
+        {
+          "id": "9:4354459301988545309",
+          "name": "skyCondition",
+          "type": 9
+        },
+        {
+          "id": "10:1362276110423732805",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "11:2295883228648068929",
+          "name": "imagePath",
+          "type": 9
+        },
+        {
+          "id": "12:2607764768017297121",
+          "name": "audioPath",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:7544942485870478489",
+      "lastPropertyId": "6:8097960399269128311",
+      "name": "Profile",
+      "properties": [
+        {
+          "id": "1:3780440496560973337",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2316377640182318168",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:9012235111276418130",
+          "name": "lastName",
+          "type": 9
+        },
+        {
+          "id": "4:9030177752727922491",
+          "name": "studentId",
+          "type": 9
+        },
+        {
+          "id": "5:4294514579273688452",
+          "name": "imagePath",
+          "type": 9
+        },
+        {
+          "id": "6:8097960399269128311",
+          "name": "phrase",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:7544942485870478489",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
